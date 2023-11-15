@@ -60,7 +60,6 @@ int main() {
 
                     std::cout << "Tracking " <<
                     counter << " times through the loop.\n";
-
                 }
             // Else tell the user that their number is not within the range.
             } else {
