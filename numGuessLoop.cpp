@@ -4,7 +4,7 @@
 // Created on: Nov/15/2023
 // This program generates a random
 // number between 0 and 9.
-// It uses a wile (true) loop to
+// It uses a while (true) loop to
 // continue asking the user to guess
 // the number, until they guess correctly.
 
@@ -40,7 +40,7 @@ int main() {
             int userNumberAsInt = std::stoi(userNumberAsString);
 
             // Using an if statement to check if
-            // the number guessed is in range of 0-9.
+            // the number guessed is in the range of 0-9.
             if (userNumberAsInt>= 0 && userNumberAsInt <= 9) {
                 // Using an if statement to see if the user guessed correctly.
                 if (userNumberAsInt == randomNumber) {
@@ -55,7 +55,7 @@ int main() {
                     std::cout <<
                     "You guessed wrong. Guess again!\n";
 
-                    // Incrementing the counter.
+                    // Increment the counter.
                     counter = counter + 1;
 
                     std::cout << "Tracking " <<
